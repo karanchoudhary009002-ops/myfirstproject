@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+body{
+    font-family: "Rubik", sans-serif;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.my-list {
+    display: flex;
+    gap: 30px;
+    /* for removing the bullet point use this (dot) */
+    list-style: none;
+}
+a.anchor-text {
+    color: black;
+    /* for removing the underline use this */
+    text-decoration: none;
+    font-size: 23px;
+    font-family: fantasy;
+}
+button.my-btn {
+    background: none;
+    border: 3px solid black;
+    padding: 10px 40px;
+    border-radius: 20px;
+    border-color: #F53855;
+}
+.banner-container {
+    display: flex;
+    align-items: center;
+}
+h2.banner-heading {
+    font-weight: 500;
+    font-size: 50px;
+}
+
+p.banner-text {
+    font-size: 16px;
+}
+span.highlight-text {
+    font-size: 53px;
+    font-weight: bold;
+}
+.button {
+       background-color: rgb(243 35 35);
+    width: 230px;
+    height: 73px;
+    border-radius: 20px;
+    color: white;
+}
+
+
+.icon {
+    display: flex;
+}
+.my-list-two {
+    list-style: none;
+}
+
+.my-text {
+    text-align: center;
+}
+.p-text {
+    text-align: center;
+}
+.my-text {
+    font-size: 40px;
+}
+.four-container {
+    display: flex;
+}
+.sub-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 50px 100px;
+    border-right: 1px solid black;
+    margin: 10px ;
+}
+.three-container {
+   
+    display: flex;
+    justify-content: center;
+    /* gap: 600px; */
+    margin: 50px;
+}
+.custom{
+    border-right: transparent;
+}
+.left-img {
+    width: 50%;
+}
+.four-header{
+    font-size: 35px;
+}
+
+.four-container {
+    display: flex;
+    justify-content: center;
+    margin: 100px;
+}
+.box-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+.box {
+    padding: 50px;
+    /* background: red; */
+    border: 2px solid #DDDDDD;
+    border-radius: 10px;
+}
+.heading-cen {
+    text-align: center;
+}
+.text-cen {
+    text-align: center;
+}
+.center-img {
+    padding: 70px;
+}
