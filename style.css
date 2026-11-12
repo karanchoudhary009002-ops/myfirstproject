@@ -122,3 +122,27 @@ span.highlight-text {
 .center-img {
     padding: 70px;
 }
+.my-boxx {
+    gap: 70px;
+    display: flex;
+}
+.heading-2 {
+    text-align: center;
+}
+.mera-text {
+    text-align: center;
+}
+
+.my-butten {
+    color: white;
+    border: none;
+    background-color: #F53838;
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+.mini-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
